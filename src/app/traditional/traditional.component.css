@@ -1,0 +1,14 @@
+
+.center{
+  margin-left:300px;
+}
+.center1{
+  margin-left:200px;
+}
+.color{
+  background:grey;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
