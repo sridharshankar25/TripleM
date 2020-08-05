@@ -1,4 +1,21 @@
+.w3-lobster {
+  font-family: "Lobster", serif;
+}
 
+.swap{
+  transition: transform 0.5s ;
+}
+.swap:hover{
+
+  /* transform: translateY(-10px); */
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px grey;
+
+}
+
+.pad{
+  margin-top: 51px;
+}
 .center{
   margin-left:300px;
 }
@@ -6,7 +23,7 @@
   margin-left:200px;
 }
 .color{
-  background:grey;
+  background:w3-light-grey;
   opacity: 0.9;
   border-radius: 15px;
 }
