@@ -27,5 +27,23 @@
   opacity: 0.9;
   border-radius: 15px;
 }
+.c1{
+  margin-left:400px;
+}
+.c2{
+  margin: 55px; 
+}
 .w3-sidebar a {font-family: "Roboto", sans-serif}
 body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+
+@media only screen and (max-width: 600px) {
+  .center{
+    margin-left:50px;
+  }
+  p .i{
+    margin: 0;
+  }
+}
+div{
+  margin: auto;
+}
