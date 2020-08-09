@@ -1,36 +1,42 @@
 <div class="w3-top">
   <div class="w3-bar w3-grey w3-card w3-left-align w3-large">
-    <!-- <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"  title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a> -->
-<a class="w3-bar-item  w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" (click)="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a routerLink='/' class="w3-bar-item w3-button w3-padding-large w3-white"><i class="fa fa-home" aria-hidden="true">Home</i></a>
-    <!-- <div class="w3-dropdown-hover"> -->
-    <a routerLink='/traditional' class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Products</a>
-    <a routerLink='/about' class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-user" aria-hidden="true" >About</i></a>
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" (click)="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a routerLink='/' class="w3-bar-item w3-button w3-padding-large w3-hover-white"><i class="fa fa-home" aria-hidden="true">
+      Home</i></a>
+    <!-- <a routerLink='/traditional' class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Products</a> -->
+    <div class="w3-dropdown-hover  w3-hover-white w3-hide-small">
+      <button class="w3-bar-item w3-button w3-padding-large w3-hover-white">Products <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-border">
+        <a routerLink='/traditional' class="w3-bar-item w3-button">Traditional</a>
+        <a href="#" class="w3-bar-item w3-button">Formals</a>
+        <a href="#" class="w3-bar-item w3-button">Casuals</a>
+        <a href="#" class="w3-bar-item w3-button">Jeans</a>
+        <a href="#" class="w3-bar-item w3-button">Cotton pants</a>
+
+      </div>
+    </div>
+    <a routerLink='/about' class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"><i class="fa fa-user" aria-hidden="true">
+      About</i></a>
   </div>
 
   <!-- Navbar on small screens -->
-  <!-- <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a routerLink='/traditional' class="w3-bar-item w3-button w3-padding-large">Products</a>
-    <div class="w3-dropdown-hover w3-bar-item w3-button w3-padding-large">
-      <button class="w3-button">Products1</button>
-      <div class="w3-dropdown-content w3-bar-item w3-button w3-padding-large">
-        <a href="#" class="w3-bar-item w3-button w3-bar-item w3-button w3-padding-large">Link 1</a>
-        <a href="#" class="w3-bar-item w3-button">Link 2</a>
-        <a href="#" class="w3-bar-item w3-button">Link 3</a>
-      </div>
+  <!-- <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large"> -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+      <a routerLink='/traditional' class="w3-bar-item w3-button">Traditional</a>
+      <a routerLink='/' class="w3-bar-item w3-button">Formals</a>
+      <a routerLink='/' class="w3-bar-item w3-button">Casuals</a>
+      <a routerLink='/' class="w3-bar-item w3-button">Cotton & jeans pant</a>
+      <a routerLink='/about' class="w3-bar-item w3-button">About</a>
     </div>
-    <a routerLink='/about' class="w3-bar-item w3-button w3-padding-large">About</a>
-  </div> -->
+<!-- </div> -->
 
-  <div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
-    <a href="#" class="w3-bar-item w3-button">Link 1</a>
-     
-    <div class="w3-bar-item w3-button w3-animate-zoom" onclick="myAccFunc()">
-    Accordion <i class="fa fa-caret-down"> </i></div>
-    <div id="demoAcc" class="w3-hide w3-white w3-card-4">
-      <a href="#" class="w3-bar-item w3-button">Link</a>
-      <a href="#" class="w3-bar-item w3-button">Link</a>
-    </div>
-      <a href="#" class="w3-bar-item w3-button">Link 3</a>
-  </div>
-</div>
+
+<!--simple>
+<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+  <a routerLink='/traditional' class="w3-bar-item w3-button w3-padding-large">Traditional</a>
+  <a routerLink='/traditional' class="w3-bar-item w3-button w3-padding-large">Formals</a>
+  <a routerLink='/traditional' class="w3-bar-item w3-button w3-padding-large">Casuals/a>
+  <a routerLink='/traditional' class="w3-bar-item w3-button w3-padding-large">Jeans & Cotton pants</a>
+
+  <a  class="w3-bar-item w3-button w3-padding-large">About</a>
+</div>-->
