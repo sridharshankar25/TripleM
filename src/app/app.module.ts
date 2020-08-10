@@ -20,6 +20,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
  import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
+import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { MenuComponent } from './menu/menu.component';
   ],
   imports: [
 
+    AnimateOnScrollModule.forRoot(),
     MatIconModule,
     BrowserAnimationsModule,
     MatMenuModule,
