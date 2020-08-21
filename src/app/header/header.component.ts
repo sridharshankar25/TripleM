@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-header',
@@ -10,6 +11,25 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    $(document).ready(function() {
+      $(".menu-icon").on("click", function() {
+            $("nav ul").toggleClass("showing");
+      });
+});
+
+// Scrolling Effect
+
+$(window).on("scroll", function() {
+      if($(window).scrollTop()) {
+            $('nav').addClass('black');
+      }
+
+      else {
+            $('nav').removeClass('black');
+      }
+})
+    
+    
   }
 
 
@@ -21,5 +41,8 @@ export class HeaderComponent implements OnInit {
      x.className = x.className.replace(" w3-show", "");
    }
   }
+
+  
+  
 
 }

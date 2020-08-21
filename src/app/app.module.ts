@@ -23,6 +23,7 @@ import { MenuComponent } from './menu/menu.component';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
