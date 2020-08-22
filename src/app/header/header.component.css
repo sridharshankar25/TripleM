@@ -22,6 +22,7 @@ header {
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
+  
 }
 
 .logo {
@@ -33,6 +34,7 @@ header {
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 2px;
+  text-decoration: none;
 }
 
 nav {
@@ -66,7 +68,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color:black;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .menu-icon {
@@ -80,7 +82,9 @@ nav ul li a {
   color: #fff;
   display: none;
 }
-/* nav ul li:hover{} */
+nav ul li:hover{
+  text-decoration:underline;
+}
 
 @media(max-width: 786px) {
 

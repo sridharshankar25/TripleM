@@ -26,6 +26,11 @@
         width:250px; 
         height:130px;
     }
+    .photo{
+        width: 100%;
+        height: 200px;
+        margin-top: 5px;
+    }
     
   }
 
@@ -53,17 +58,28 @@
 .product-grid6 button { height: 30px; width: 100px; background-color:black; color:white; margin: 10px;
 }
 .product-grid6 button:hover{background-color:grey;}
-@media only screen and (max-width:990px){.product-grid6{margin-bottom:50px}
+@media only screen and (max-width:990px){
+    
+.product-grid6
+{
+    margin-bottom:25px
+}
+
+
 .carousel-inner img {
-    width: 100%;
-    height: 100%;
+    margin-top: 0px;
+    width: 10%;
+    height: 10%;
   }
 
 }
 .carousel-inner img {
+    margin-top: 40px;
     width: 100%;
     height: 450px;
   }
 
-
-
+h1,h2,h3,h4,h5,h6,p
+{
+    font-family:'Open Sans',sans-serif;
+}
