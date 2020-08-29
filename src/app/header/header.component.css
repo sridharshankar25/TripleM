@@ -81,9 +81,14 @@ nav ul li a {
   cursor: pointer;
   color: #fff;
   display: none;
+} 
+nav ul li a:hover{
+  
+  color:red;
 }
-nav ul li:hover{
-  text-decoration:underline;
+
+.active nav ul li{
+  color:red !important;
 }
 
 @media(max-width: 786px) {
@@ -118,4 +123,35 @@ nav ul li:hover{
         display: block;
   }
 
+}
+
+.slider{
+  position: static;
+  bottom: 0;left: 0;
+  width: 11%;height: 5px;
+  background-color: black;
+  transition: all 0.3s ease-out;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+li:nth-child(1):hover ~.slider{
+  margin-left: 20.5%;
+}
+
+li:nth-child(2):hover ~.slider{
+  margin-left: 33.5%;
+}
+li:nth-child(3):hover ~.slider{
+  margin-left: 46%;
+}
+li:nth-child(4):hover ~.slider{
+  margin-left: 58%;
+}
+li:nth-child(5):hover ~.slider{
+  margin-left: 74%;
+}
+li:nth-child(6):hover ~.slider{
+  margin-left: 90%;
 }

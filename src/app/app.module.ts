@@ -21,7 +21,7 @@ import { AboutComponent } from './about/about.component';
  import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
-
+import {NgsRevealModule} from 'ngx-scrollreveal';
 
 
 @NgModule({
@@ -40,6 +40,7 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
   ],
   imports: [
 
+    NgsRevealModule,
     AnimateOnScrollModule.forRoot(),
     MatIconModule,
     BrowserAnimationsModule,
@@ -72,4 +73,8 @@ export class AppModule {
    }
   }
 
+  
+
 }
+
+

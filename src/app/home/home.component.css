@@ -14,8 +14,8 @@
         width:220px;
         height:250px;    
     }
-    .s2{
-        margin-left: 40px;;
+    .s2 img{
+        margin-left: 110px;
         width:220px;
         height:250px;
     }
@@ -74,7 +74,7 @@
 
 }
 .carousel-inner img {
-    margin-top: 40px;
+    margin-top: 50px;
     width: 100%;
     height: 450px;
   }
@@ -83,3 +83,6 @@ h1,h2,h3,h4,h5,h6,p
 {
     font-family:'Open Sans',sans-serif;
 }
+
+
+
