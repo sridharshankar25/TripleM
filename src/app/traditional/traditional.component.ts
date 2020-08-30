@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any; 
 
 @Component({
   selector: 'app-traditional',
@@ -10,7 +11,11 @@ export class TraditionalComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+    $('[data-toggle="popover"]').popover();
   }
+
+  
 
   
 

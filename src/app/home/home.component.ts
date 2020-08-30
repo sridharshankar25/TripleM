@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgsRevealConfig } from 'ngx-scrollreveal';
+// declare var $: any; 
+// import * as $ from 'jquery';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +13,11 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+    ngOnInit(): void {
+
+      
+        // $('[data-toggle="popover"]').popover();   
+      
   }
 
 

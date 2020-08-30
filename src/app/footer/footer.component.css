@@ -1,3 +1,14 @@
-li,a {
+li,a,ul {
     color: black;
+    list-style-type:none;
+
+}
+li{
+    text-align: left;
+}
+
+@media(max-width: 786px){
+li{
+    text-align: center;
+}
 }
