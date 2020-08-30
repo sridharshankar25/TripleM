@@ -22,6 +22,7 @@ import { AboutComponent } from './about/about.component';
 import { MenuComponent } from './menu/menu.component';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import {NgsRevealModule} from 'ngx-scrollreveal';
+import { TraDetailsComponent } from './tra-details/tra-details.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import {NgsRevealModule} from 'ngx-scrollreveal';
     HomeComponent,
     AboutComponent,
     MenuComponent,
+    TraDetailsComponent,
   ],
   imports: [
 
