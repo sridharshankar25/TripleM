@@ -19,8 +19,8 @@ export class TraditionalComponent implements OnInit {
 
   
 
-myFunction() {
-  var x = document.getElementById("navDemo");
+myFun() {
+  var x = document.getElementById("nav1");
  if (x.className.indexOf("w3-show") == -1) {
    x.className += " w3-show";
  } else {

@@ -5,15 +5,24 @@
 <div class="w3-container w3-hide-large ">
   <h3 class="w3-center "> <strong>Traditional Collections </strong></h3>
 </div>
-  <div class="w3-dropdown-hover w3-right" style="padding-right:25px; padding-top:50px;">
-    <button class="w3-button w3-black" >Categories <i class="fa fa-caret-down" aria-hidden="true"></i></button>
-      <div class="w3-dropdown-content w3-bar-block w3-border" style="right:0">
+  <!-- <div class="dropdown w3-right" style="padding-right:25px; padding-top:50px;">
+    <button id="nav1" class="w3-button w3-black" href="javascript:void(0);" (click)="myFun()" >Categories <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+      <div  class="w3-dropdown-content w3-bar-block w3-border" style="right:0">
         <a href="#mens" class="w3-bar-item w3-button">Mens</a>
         <a href="#kids" class="w3-bar-item w3-button">Kids</a>
         
       </div>
+    </div> -->
+    <div class="dropdown w3-right" style="padding-right:25px; padding-top:50px;">
+    <button type="button" class="btn w3-black dropdown-toggle" data-toggle="dropdown">
+      Categories
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#mens">Mens</a>
+      <a class="dropdown-item" href="#kids">Kids</a>
+      <!-- <a class="dropdown-item" href="#">Link 3</a> -->
     </div>
-    
+    </div>
   
 <!--sample-->
 <body class="w3-content" style="max-width:1200px">
