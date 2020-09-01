@@ -84,7 +84,11 @@ ul{
    text-align:center; 
    border:2px solid #d5d5d5;
    margin: 0 0 28px;
+   border-radius: 20px;
+   box-shadow: 0 0 20px rgba(0,0,0,0.25);
 }
+
+
 .our-webcoderskull .cnt-block figure{
    width:148px; 
    height:148px; 
@@ -132,3 +136,97 @@ ul{
 .our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
    color:#025a8e;
 }
+
+
+/* li {
+    background: blue;
+    width: 6em;
+    padding: 1em;
+    text-align:center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+  }
+  li::before {
+    content: '';
+    position: absolute;
+    color: #fff;
+    background: green;
+    z-index: -1;
+    transition: 0.5s width ease-in-out, 0.5s height ease-in-out;
+  }
+
+  li.slideDown::before {
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+  }
+
+  li.slideDown:hover::before {
+  width: 100%;
+  height: 100%;
+} */
+
+.swipe2right {
+    position: relative;
+  
+    display: inline-block;
+    vertical-align: middle;
+  
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+  
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  
+  .swipe2right::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  
+  .swipe2right:hover::before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  
+  .w2y {
+    background-color: #fff;
+    color: #000;
+  }
+  .w2y::before {
+    background:linear-gradient(to bottom right, #3399ff 0%, #ff99cc 100%);;
+    border-radius: 20px;
+
+  }
+  
+  .w2y:hover,
+  .y2w:hover {
+    color: #000;
+    border-radius: 20px;
+  }
+  .y2b:hover,
+  .w2b:hover {
+    color: #fff;
+  }
+  
