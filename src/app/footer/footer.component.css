@@ -1,4 +1,4 @@
-li,a,ul {
+li,a{
     color: black;
     list-style-type:none;
 
@@ -6,9 +6,15 @@ li,a,ul {
 li{
     text-align: left;
 }
+ul{
+    text-align: left;
+}
 
 @media(max-width: 786px){
 li{
     text-align: center;
+}
+ul{
+    text-align:center ;
 }
 }

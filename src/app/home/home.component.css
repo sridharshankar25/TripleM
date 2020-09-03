@@ -32,7 +32,6 @@
         margin-top: 0px;
     }
     .product-grid6 .product-image6 img{width:150px;height:150px; transition:all .5s ease 0s}
-    
   }
 
 .product-grid6,.product-grid6 .product-image6{overflow:hidden}
@@ -59,7 +58,7 @@
 .product-grid6 button { height: 30px; width: 75px; background-color:black; color:white; margin: 10px;
 }
 .product-grid6 button:hover{background-color:grey;}
-@media only screen and (max-width:990px){
+@media only screen and (max-width:600px){
     
 .product-grid6
 {
@@ -67,11 +66,7 @@
 }
 
 
-.carousel-inner img {
-    margin-top: 0px;
-    width: 10%;
-    height: 10%;
-  }
+
 
 }
 .carousel-inner img {
