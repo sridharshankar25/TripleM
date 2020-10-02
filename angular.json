@@ -122,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "triplem-app"
+    }
+  },
+  "defaultProject": "triplem-app",
+  "cli": {
+    "analytics": false
+  }
 }
