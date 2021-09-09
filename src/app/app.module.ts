@@ -9,7 +9,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import{MatIconModule} from '@angular/material/icon';
 
 
-import {APP_BASE_HREF} from '@angular/common';
+import {APP_BASE_HREF, HashLocationStrategy, LocationStrategy} from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
 import { TraditionalComponent } from './traditional/traditional.component';
 import { FormalsComponent } from './formals/formals.component';
@@ -61,7 +61,7 @@ import { TraDetailsComponent } from './tra-details/tra-details.component';
       { path: 'about', component: AboutComponent},
     ])
   ],
-  providers: [{provide: APP_BASE_HREF, useValue : '/' }],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy},{provide: APP_BASE_HREF, useValue : '/' }],
   bootstrap: [AppComponent]
 })
 export class AppModule {
