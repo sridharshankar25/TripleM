@@ -23,6 +23,7 @@ import { MenuComponent } from './menu/menu.component';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import {NgsRevealModule} from 'ngx-scrollreveal';
 import { TraDetailsComponent } from './tra-details/tra-details.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { TraDetailsComponent } from './tra-details/tra-details.component';
     AboutComponent,
     MenuComponent,
     TraDetailsComponent,
+    PrivacyComponent,
   ],
   imports: [
 
@@ -56,9 +58,9 @@ import { TraDetailsComponent } from './tra-details/tra-details.component';
       { path: 'casuals', component: CasualsComponent },
       { path: 'jeans', component: JeansComponent },
       { path: 'pants', component: PantsComponent },
-
-
       { path: 'about', component: AboutComponent},
+      { path: 'privacy', component: PrivacyComponent},
+
     ])
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy},{provide: APP_BASE_HREF, useValue : '/' }],
